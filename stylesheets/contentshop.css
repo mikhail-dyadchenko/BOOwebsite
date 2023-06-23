@@ -1,0 +1,106 @@
+.contentshop {
+  width: 100vw;
+  height: 100vh;
+  background: #F39200;
+  overflow: scroll;
+  display: block;
+}
+.headcont3 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.headshop {
+  position: relative;
+  width: 760px;
+  height: 362px;
+  background: url('../images/headshop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -6vh;
+  max-width: 100%;
+}
+.case, .case1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.mug {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url('../images/mug.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -25vh;
+  max-width: 100%;
+}
+.pen {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url('../images/pen.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -25vh;
+  max-width: 100%;
+}
+.ball {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url('../images/ball.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 9vh;
+  max-width: 100%;
+}
+.flag {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url('../images/flag.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 9vh;
+  max-width: 100%;
+}
+.baloons {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url('../images/baloons.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 9vh;
+  max-width: 100%;
+}
+.card {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: url('../images/card.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 9vh;
+  max-width: 100%;
+}
+.mug p, .pen p, .ball p, .flag p, .baloons p, .card p {
+  opacity: 0%;
+  color: #F39200;
+  font-family: 'MontserratAlternates-Black';
+  font-size: 26px;
+  text-align: center;
+  padding: 220px 220px 220px 220px;
+}
+.mug p:hover, .pen p:hover, .ball p:hover, .flag p:hover, .baloons p:hover, .card p:hover {
+  opacity: 100%;
+}

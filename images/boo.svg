@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="163.46" height="140.82" viewBox="0 0 163.46 140.82">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #e6332a;
+        stroke-miterlimit: 10;
+        stroke-width: 15px;
+      }
+
+      .cls-3 {
+        fill: #e6332a;
+      }
+
+      .cls-2 {
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M39.23,99.99c17.52,0,31.73-14.17,31.73-31.64s-14.21-31.64-31.73-31.64S7.5,50.88,7.5,68.35s14.21,31.64,31.73,31.64Z"/>
+  <path class="cls-1" d="M7.5,68.35V7.5h63.46"/>
+  <path class="cls-3" d="M39.23,41.29c14.98,14.93,14.98,39.18,0,54.11-14.97-14.93-14.97-39.18,0-54.11Z"/>
+  <path class="cls-3" d="M32.22,95.41H14.52v22.39l17.7-22.39Z"/>
+  <path class="cls-3" d="M49.07,95.41h17.7v22.39l-17.7-22.39Z"/>
+  <path class="cls-2" d="M92.5,40.45v29.98c0,17.47,14.21,31.64,31.73,31.64s31.73-14.17,31.73-31.64v-29.98"/>
+  <path class="cls-1" d="M155.95,72.47v60.85h-63.45"/>
+</svg>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascripts/jquery-3.6.1.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Рок-клуб БУ</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div class="headcont">
+      <div class="head"></div>
+    </div>
+    <div class="menu">
+      <div class="red"></div>
+      <div class="purple"></div>
+      <div class="green"></div>
+      <div class="orange"></div>
+    </div>
+    <div class="menubutton">
+      <a href="about.html"><div class="about hidden"></div></a>
+      <a href="shows.html"><div class="shows hidden"></div></a>
+      <a href="https://mikhail-dyadchenko.github.io/BOO_web_poster/"><div class="poster hidden"></div></a>
+      <a href="shop.html"><div class="shop hidden"></div></a>
+    </div>
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".red").click(function(){
+          $(".about.hidden").removeClass("hidden")
+        });
+      })
+      $(document).ready(function(){
+        $(".purple").click(function(){
+          $(".shows.hidden").removeClass("hidden")
+        });
+      })
+      $(document).ready(function(){
+        $(".green").click(function(){
+          $(".poster.hidden").removeClass("hidden")
+        });
+      })
+      $(document).ready(function(){
+        $(".orange").click(function(){
+          $(".shop.hidden").removeClass("hidden")
+        });
+      })
+    </script>
+  </body>
+</html>

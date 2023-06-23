@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascripts/jquery-3.6.1.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Афиша</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div class="contentshows">
+      <div class="burger"></div>
+      <div class="sidemenu hidden">
+        <a href="index.html"><div class="icon1"></div></a>
+        <a href="about.html"><div class="icon2"></div></a>
+        <a href="shows.html"><div class="icon3"></div></a>
+        <a href="https://mikhail-dyadchenko.github.io/BOO_web_poster/"><div class="icon4"></div></a>
+        <a href="shop.html"><div class="icon5"></div></a>
+      </div>
+      <div class="headcont2">
+        <div class="headshows"></div>
+      </div>
+      <div class="shows1">
+        <div class="show1"></div>
+        <div class="show2"></div>
+        <div class="show3"></div>
+        <div class="textshows">
+          <div class="invisible"></div>
+          <div class="text1 hidden1">
+            <p>Дарк-эмбиент группа The Roaring выступит в рок-клубе <br>при развлекательном центре для монстров БУ 30 июня 2023 года. Творчество коллектива отличается необычными, а порой новаторскими подходами к звукоизвлечению и, в студийных альбомах, к звукозаписи. Музыка группы действительно жуткая <br>и пугающая, а атмосферный вокал её отлично дополняет. <br><br>Увидимся на концерте!</p>
+          </div>
+          <div class="text2 hidden1">
+            <p>20 июля 2023 года в рок-клубе развлекательного центра для монстров БУ пройдет незабываемое событие — рок-вечеринка <br>с элементами взаимодействия. Вы сможете поучаствовать <br>в создании музыки в режиме реального времени и почувствовать себя настоящей рок-звездой! <br><br>Ждём Вас в гости!</p>
+          </div>
+          <div class="text3 hidden1">
+            <p>Ожидайте появления новых событий в афише. <br>Мы работаем над их организацией.</p>
+          </div>
+          <a href="https://mikhail-dyadchenko.github.io/BOO_Web-Poster_interactive/"><div class="game"></div></a>
+        </div>
+        <div class="footer">
+          <div class="minilogo"></div>
+          <p>ул. Вязов, д. 1428<br>22:00 — 08:00<br>+7 (666) 123-45-67</p>
+          <div class="hselogo"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".burger").click(function(){
+          $(".sidemenu").toggleClass("hidden")
+        });
+        $(".show1").click(function(){
+          $(".text1.hidden1").removeClass("hidden1")
+          $(".text2").addClass("hidden1")
+          $(".text3").addClass("hidden1")
+        });
+        $(".show2").click(function(){
+          $(".text1").addClass("hidden1")
+          $(".text2.hidden1").removeClass("hidden1")
+          $(".text3").addClass("hidden1")
+        });
+        $(".show3").click(function(){
+          $(".text1").addClass("hidden1")
+          $(".text2").addClass("hidden1")
+          $(".text3.hidden1").removeClass("hidden1")
+        });
+      })
+    </script>
+  </body>
+</html>

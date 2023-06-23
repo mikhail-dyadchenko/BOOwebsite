@@ -1,0 +1,77 @@
+.contentabout {
+  width: 100vw;
+  height: 100vh;
+  background: #E6332A;
+  overflow: scroll;
+  display: block;
+}
+.headcont1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.headabout {
+  position: relative;
+  width: 820px;
+  height: 396px;
+  background: url('../images/headabout.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -16vh;
+  max-width: 100%;
+}
+.about1 {
+  display: block;
+}
+.textabout {
+  position: relative;
+  width: 737px;
+  height: 690px;
+  background: url('../images/textframeabout.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -35vh;
+  margin-left: -5vw;
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+}
+.invisible {
+  height: 85px;
+  background: transparent;
+}
+.textabout p {
+  width: 450px;
+  height: auto;
+  font-family: 'MontserratAlternates-Regular';
+  font-size: 16px;
+  text-align: left;
+  margin-left: 10vw;
+}
+.entrance {
+  position: relative;
+  width: 680px;
+  height: 840px;
+  background: url('../images/entrance.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -100vh;
+  margin-left: 48vw;
+  max-width: 100%;
+}
+.book {
+  position: relative;
+  width: 1149px;
+  height: 636px;
+  background: url('../images/book.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 10vh;
+  margin-left: 7vw;
+  max-width: 100%;
+}

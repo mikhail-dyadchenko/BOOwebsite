@@ -1,0 +1,10 @@
+.content404 {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('../images/404.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  max-width: 100%;
+}

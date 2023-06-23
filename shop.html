@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascripts/jquery-3.6.1.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Магазин</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div class="contentshop">
+      <div class="burger"></div>
+      <div class="sidemenu hidden">
+        <a href="index.html"><div class="icon1"></div></a>
+        <a href="about.html"><div class="icon2"></div></a>
+        <a href="shows.html"><div class="icon3"></div></a>
+        <a href="https://mikhail-dyadchenko.github.io/BOO_web_poster/"><div class="icon4"></div></a>
+        <a href="shop.html"><div class="icon5"></div></a>
+      </div>
+      <div class="headcont3">
+        <div class="headshop"></div>
+      </div>
+      <div class="case">
+        <div class="mug">
+          <p>Кружка<br>₽990</p>
+        </div>
+        <div class="pen">
+          <p>Ручка<br>₽190</p>
+        </div>
+        <div class="ball">
+          <p>Ёлочный шар<br>₽490</p>
+        </div>
+        <div class="flag">
+          <p>Флаг<br>₽1990</p>
+        </div>
+        <div class="baloons">
+          <p>Шары<br>₽290</p>
+        </div>
+        <div class="card">
+          <p>Карта<br>₽90</p>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="minilogo"></div>
+        <p>ул. Вязов, д. 1428<br>22:00 — 08:00<br>+7 (666) 123-45-67</p>
+        <div class="hselogo"></div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".burger").click(function(){
+          $(".sidemenu").toggleClass("hidden")
+        });
+      })
+    </script>
+  </body>
+</html>
